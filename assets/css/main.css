@@ -1,0 +1,252 @@
+body {
+  background: url(../img/back-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --para-color: rgb(18, 87, 69);
+  --secondary-color: rgba(41, 143, 159, 0.5);
+  --subhead-color: rgba(66, 107, 50, 0.717);
+  --light-color: #f6f7fa8f;
+  --heading-color: rgb(87, 130, 73);
+  --font-family: Gill Sans Extrabold sans-serif;
+  --font-style: italic;
+}
+.slider .btn {
+  margin-top: 20px;
+}
+
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+  border: #f4f4f4 3px solid !important;
+}
+
+.autocomplete-content {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.section-follow .fa-4x {
+  margin: 5px 10px;
+}
+
+.section-contact .h5 {
+  margin-bottom: 30px;
+}
+.slides h1 {
+  margin-top: 90px;
+  color: var(--secondary-color);
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: normal;
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  background-color: #eaecede7;
+  border-radius: 10px;
+}
+
+#home h1 {
+  color: rgba(6, 29, 29, 0.737);
+  text-decoration: underline;
+}
+
+#wrapper {
+  background-color: rgba(240, 248, 255, 0.541);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  border-top: 1px solid #eaeaea;
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 950px;
+  position: relative;
+  overflow: scroll;
+  border-radius: 9px;
+  font-family: var(--font-family);
+}
+
+h2 {
+  color: var(--heading-color);
+  margin-top: 2em;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+}
+
+h4 {
+  color: var(--heading-color);
+  background-color: var(--secondary-color);
+  width: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.container-1 {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  border-radius: 10px;
+  padding: 8%;
+  width: auto;
+}
+.container-1,
+p {
+  font-size: 20px;
+  color: var(--para-color);
+}
+
+.head {
+  text-align: left;
+  text-decoration: underline;
+  color: var(--heading-color);
+}
+
+.pr {
+  font-weight: 100px;
+  text-align: left;
+}
+
+.container-2 {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  border-radius: 10px;
+  padding: 8%;
+  width: auto;
+}
+.container-2 img {
+  border-radius: 10px;
+  box-shadow: 5px 3px 5px 3px rgba(12, 17, 22, 0.5);
+}
+.role ul {
+  text-align: left;
+}
+
+.role ul li {
+  list-style: square;
+  color: var(--para-color);
+  font-size: 20px;
+}
+
+.container-3 {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  border-radius: 10px;
+  padding: 8%;
+  width: auto;
+}
+
+.container-3 h5 {
+  color: var(--subhead-color);
+}
+.container-3 img {
+  border-radius: 10px;
+  box-shadow: 5px 3px 5px 3px rgba(12, 17, 22, 0.5);
+}
+
+.container-4 {
+  margin-top: 20px;
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  border-radius: 10px;
+  padding: 8%;
+  width: auto;
+}
+
+.container-4 img {
+  border-radius: 10px;
+  box-shadow: 5px 3px 5px 3px rgba(12, 17, 22, 0.5);
+}
+
+.container-5 {
+  margin-top: 20px;
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  border-radius: 10px;
+  padding: 8%;
+  width: auto;
+}
+
+.container-5 h5 {
+  color: var(--subhead-color);
+}
+
+.container-6 {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  border-radius: 10px;
+  padding: 8%;
+  width: auto;
+}
+
+.card {
+  width: auto;
+  margin: 20px auto;
+  background-color: #ffffff6b;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.contact-links {
+  margin-top: 20px;
+}
+.contact-links a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+  background-color: #00ffd95f;
+  width: 80px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.contact-links a:hover {
+  color: #007bff;
+  background-color: aquamarine;
+}
+
+footer {
+  background-color: var(--light-color);
+  color: var(--heading-color);
+}
+
+footer h5 {
+  color: var(--subhead-color);
+  font-size: 40px;
+}
+footer p {
+  font-size: 30px;
+  font-weight: 200px;
+}
+
+.container-7 a {
+  font-size: 22px;
+  color: #eaeaea;
+}
+
+.copy {
+  font-size: 30px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 500px) {
+  .container-1,
+  .container-2,
+  .container-3,
+  .container-4,
+  .container-5 {
+    width: 100% !important;
+  }
+
+  .section-search,
+  .section-goforward {
+    padding: 0 16px !important;
+  }
+}
